@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://cityofphiladelphia.github.io/solar-methodology" resolutions="1x" timestamp="1533222230382">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://cityofphiladelphia.github.io/solar-methodology" resolutions="1x" timestamp="1533233061596">
   <folder name="css">
-    <file name="site_global.css" crc="3899992807"/>
-    <file name="index.css" crc="4020931945" ref="index"/>
+    <file name="site_global.css" crc="8817582"/>
+    <file name="index.css" crc="3817638669" ref="index"/>
     <file name="nomq_index.css" crc="252217327" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -13,5 +13,5 @@
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
-  <file name="index.html" crc="426024312" seo="true" mt="1533222150185" redirect="true"/>
+  <file name="index.html" crc="3873903863" seo="true" mt="1533232443939" redirect="true"/>
 </manifest>
