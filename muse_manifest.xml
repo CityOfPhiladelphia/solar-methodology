@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://cityofphiladelphia.github.io/solar-methodology" resolutions="1x" timestamp="1533233735324">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://cityofphiladelphia.github.io/solar-methodology" resolutions="1x" timestamp="1536587798881">
   <folder name="css">
     <file name="site_global.css" crc="8817582"/>
-    <file name="index.css" crc="3988080162" ref="index"/>
-    <file name="nomq_index.css" crc="390037830" ref="index"/>
+    <file name="index.css" crc="164954367" ref="index"/>
+    <file name="nomq_index.css" crc="4044351575" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -13,5 +13,5 @@
     <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
-  <file name="index.html" crc="3837264578" seo="true" mt="1533233720174" redirect="true"/>
+  <file name="index.html" crc="345227772" seo="true" mt="1536587783131" redirect="true"/>
 </manifest>

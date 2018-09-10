@@ -17,13 +17,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>solar-methodology</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=8817582"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3988080162" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=164954367" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=390037830" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4044351575" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
-  <script src="https://use.typekit.net/ik/3LpLEZ1izDR7pMsLPXcA-Vw3Lf8WBh0kagrwvU7Gl_XfelwgfVKvh6bPH2qtFDMoFRyLFemyZcsqZAs8Zem8wA93jRIkZeBRjQqowAjaFQbk52q-WfG0jh8XpANcSeyTdeBqZAU3-e8yOciTieyujKoTdkUR-WsodhZ3-e8CjAs8dYgG-AI0Zh8X-YmKOc8zOYiaikoR-WsodhZ3-e8CjAs8dYgG-AI0Zh8X-YmKOc8zJ6TldhoXShmkScBXJ68zSem0OWFyd1w7f6R-TMJbMg6YJMJ7fbR9SsMgeMb6MKG4fwuUIMIjgkMfP6sFiWF8qMYY8Jadgb.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/TkpT4YSSJBX-IFesySDT9iTOa9z7Pxt32cIFqnnFGbwfelwgfVKvh6bPH2qtFDMoFRyLFemyZcsqZAs8Zem8wA93jRIkZeBRjQqowAjaFQbk52q-WfG0jh8XpANcSeyTdeBqZAU3-e8yOciTieyujKoTdkUR-WsodhZ3-e8CjAs8dYgG-AI0Zh8X-YmKOc8zOYiaikoR-WsodhZ3-e8CjAs8dYgG-AI0Zh8X-YmKOc8zJ6TldhoXShmkScBXJ68zSem0OWFyd1w7f6R-TMJbMg6YJMJ7fbR9SsMgeMb6MKG4fwuUIMIjgkMfP6sFiWF8qMeAvF1Sgb.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -82,10 +82,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p id="u2835-3">&nbsp;</p>
       <p id="u2835-9">The City of Philadelphia purchased LiDAR (Light Detectection and Ranging) imagery captured from planes in April of 2015 (available from <span><a class="nonblock" href="http://www.pasda.psu.edu/uci/DataSummary.aspx?dataset=1048" target="_blank">PASDA</a></span>).&nbsp; LiDAR&nbsp; measures distance by emitting pulsed laser light and measuring the reflected pulses.&nbsp; These pulses reflect off of the Earth's surface and features on it, such as buildings and vegetation.&nbsp; By comparing the emitted light to the reflected light, an accurate height of ground surface and other features can be calculated.&nbsp; LiDAR imagery was captured before trees grew leaves again after the winter, without snow on the ground, and when water levels were normal.&nbsp; This high-resolution elevation data is an important initial step for determining the solar potential of rooftops across the city.</p>
       <p id="u2835-10">&nbsp;</p>
-      <p id="u2835-19">Environmental Systems Research Institute (ESRI) created a model for <span><a class="nonblock" href="https://solutions.arcgis.com/local-government/help/solar-radiation-maps/" target="_blank">calculating solar radiation</a></span> that we used to process LiDAR data to quantify solar radiation on rooftops across Philadelphia.&nbsp; This was performed by modeling the average path of the sun for each month of the year to determine the amount of solar energy that reaches the ground surface and other features.&nbsp; This calculation takes into account how features on the land block solar radiation and create shadows, which would reduce the efficiency of solar panels.&nbsp; LiDAR imagery tiles were processed across the entire city, covering about 196 square miles.&nbsp; After combining monthly solar radiation data into a yearly average and converting units to kwH/m<span class="superscript">2</span>/day, the resulting solar radiation tiles were stitched into a single raster and clipped to building footprints.&nbsp; A cutoff of 3 kwh was applied to the solar irradiance data and summed for each building.&nbsp; A conservative estimate of solar potential of 20% of total solar irradiance to account for the efficiency of solar panels.</p>
+      <p id="u2835-19">Environmental Systems Research Institute (ESRI) created a model for <span><a class="nonblock" href="https://solutions.arcgis.com/local-government/help/solar-radiation-maps/" target="_blank">calculating solar radiation</a></span> that we used to process LiDAR data to quantify solar radiation on rooftops across Philadelphia.&nbsp; This was performed by modeling the average path of the sun for each month of the year to determine the amount of solar energy that reaches the ground surface and other features.&nbsp; This calculation takes into account how features on the land block solar radiation and create shadows, which would reduce the efficiency of solar panels.&nbsp; LiDAR imagery tiles were processed across the entire city, covering about 196 square miles.&nbsp; After combining monthly solar radiation data into a yearly average and converting units to kwH/m<span class="superscript">2</span>/day, the resulting solar radiation tiles were stitched into a single raster and clipped to building footprints.&nbsp; A cutoff of 3 kwh was applied to the solar irradiance data and summed for each building to identify the most suitable parts of rooftops.&nbsp; The conservative estimate of solar potential for buildings was calculated using 20% of total solar irradiance for suitable rooftop area to account for the efficiency of solar panels.</p>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="1181" data-content-above-spacer="1180" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1197" data-content-above-spacer="1196" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1650" data-min-width="1441" data-max-width="1650"><!-- responsive breakpoint node -->
@@ -99,28 +99,28 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <span class="clearfix grpelem placeholder" data-placeholder-for="u5399-3_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="ppu2953-5_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="1169" data-content-above-spacer="1169" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1175" data-content-above-spacer="1175" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1200" data-min-width="1081" data-max-width="1200"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <span class="clearfix grpelem placeholder" data-placeholder-for="u5399-3_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="ppu2953-5_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="1157" data-content-above-spacer="1157" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1167" data-content-above-spacer="1167" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1080" data-min-width="981" data-max-width="1080"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <span class="clearfix grpelem placeholder" data-placeholder-for="u5399-3_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="ppu2953-5_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="1180" data-content-above-spacer="1179" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1205" data-content-above-spacer="1204" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_980" data-min-width="851" data-max-width="980"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <span class="clearfix grpelem placeholder" data-placeholder-for="u5399-3_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="ppu2953-5_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="1178" data-content-above-spacer="1178" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1213" data-content-above-spacer="1213" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_850" data-min-width="721" data-max-width="850"><!-- responsive breakpoint node -->
@@ -135,7 +135,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="clearfix colelem placeholder" data-placeholder-for="pu5361-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u2835-21_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="1362" data-content-above-spacer="1361" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1378" data-content-above-spacer="1377" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_720" data-min-width="601" data-max-width="720"><!-- responsive breakpoint node -->
@@ -150,7 +150,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="clearfix colelem placeholder" data-placeholder-for="pu5361-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u2835-21_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="1406" data-content-above-spacer="1405" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1464" data-content-above-spacer="1463" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_600" data-min-width="451" data-max-width="600"><!-- responsive breakpoint node -->
@@ -165,7 +165,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="clearfix colelem placeholder" data-placeholder-for="pu5361-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u2835-21_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="1591" data-content-above-spacer="1591" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1622" data-content-above-spacer="1622" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_450" data-max-width="450"><!-- responsive breakpoint node -->
@@ -184,7 +184,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="clearfix colelem placeholder" data-placeholder-for="pu5361-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u2835-21_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="2011" data-content-above-spacer="2010" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="2081" data-content-above-spacer="2080" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <!-- Other scripts -->
